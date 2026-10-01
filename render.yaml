@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: dice-sim
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python3 dice_sim.py live 5 500
+    autoDeploy: true
