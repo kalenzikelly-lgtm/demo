@@ -1,0 +1,1 @@
+# dice_sim.py uses only the Python standard library. No dependencies needed.
